@@ -1,25 +1,54 @@
-.container .picture{
-    width:50%;
-    height:50px;
-}
-.container{
+.container {
+    width:70%;
+    margin:auto;
     position:relative;
 }
-img{
-    width:40%;
-    height:400px;
-    position: absolute;
+.picture{
+    position:relative;
     display:none;
+}    
+.picture img{
+    width:70%;
+    height:400px;
+    margin-left:150px;
+}
+.active{
+    display:block;
+}    
+.left{
+    position:absolute;
+    top:50%;
+    left:150px;
+    background-color:#FFAEB9;
+    border:1px solid black;
+    padding:15px;
+
+    
+}
+.right{
+    position:absolute;
+    top:50%;
+    right:134px;
+     background-color:#FFAEB9;
+     border:1px solid black;
+      padding:15px;
+
+
+}
+.pick{
+    z-index:2;
+    position:absolute;
+    width:100%;
+    bottom:-15px;
+    text-align:center;
+    
+
 }
 .box{
     width:10px;
     height:10px;
-    background:#ccc;
-    position:absolute;
-    top:380px;
-    left:400px;
-    float:left;
-}
-.container .active img{
-    display:block;
+    display:inline-block;
+    background-color:#FFDEAD;
+    margin:20px 4px ;
+    border-radius:10px; 
 }
