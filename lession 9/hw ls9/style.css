@@ -1,0 +1,25 @@
+.container .picture{
+    width:50%;
+    height:50px;
+}
+.container{
+    position:relative;
+}
+img{
+    width:40%;
+    height:400px;
+    position: absolute;
+    display:none;
+}
+.box{
+    width:10px;
+    height:10px;
+    background:#ccc;
+    position:absolute;
+    top:380px;
+    left:400px;
+    float:left;
+}
+.container .active img{
+    display:block;
+}
